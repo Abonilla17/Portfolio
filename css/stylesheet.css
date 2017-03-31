@@ -1,0 +1,24 @@
+.portfolio{
+	background-color: black;
+	border:1px solid black;
+	color: white;
+	display: table;
+    top:100px;
+
+}
+.header{
+	padding: 200px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 90px;  
+	background-color: #e3e0cf;
+	border-bottom: 1px solid black;	
+}
+body{
+	background-color: lightgrey;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+footer{
+	border:1px solid white;
+}
