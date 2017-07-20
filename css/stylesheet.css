@@ -1,29 +1,82 @@
-#this stylesheet only applies to portfolio.html
-.portfolio{
-	background-color: black;
-	border:1px solid black;
-	color: white;
-	display: table;
-    top:100px;
-	
-
+ @import url('https://fonts.googleapis.com/css?family=Fresca');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@media screen and (max-width: 479px) {
+	.transparent-nav{
+		line-height: 1;
+	}
+	.main-info,.skills-info,work-info{
+		line-height: 1;
+	}
 }
-.header{
-	padding: 200px;
-	text-align: center;
-	vertical-align: middle;
-	line-height: 90px;  
-	background-color: #e3e0cf;
-	border-bottom: 1px solid black;	
+#wrapper {
+    width:100%;
+    overflow:hidden;
+}
+#sidebar {	
+    float:left;
+	background-color: lightgrey;
+}
+#content {
+    margin: 0 0 0 100px;
 }
 body{
-	background-color: lightgrey;
-    margin-left: 60px;
-    margin-right: 60px;
+	background-color: #95a5a6;
+	animation:5s infinite;
 }
-footer{
-	border:1px solid white;
+.transparent-nav{
+	color:black;
+	text-align: center;
+	text-decoration: underline;
+	font-family: 'Fresca', sans-serif;
+	position: fixed;
+	width:8%;
 }
-.img{
-	display:block;
+i{
+	color:black;
+}
+i:hover{
+	border:0.5px solid black;
+}
+.icons-contact{
+	text-align: center;
+	font-family: 'Fresca',sans-serif;
+	font-size: 20px;
+}
+a{
+	color:black;
+}
+.main-info{
+	text-align: center;
+	padding: 10%;
+	font-family: 'Lobster', cursive;
+	line-height: 10;
+	border-bottom: 2px solid black;
+}
+.headline{
+	font-size: 60px;
+}
+.about-info{
+	line-height: 3;
+	padding: 20%;
+	text-align: center;
+	font-family: 'Lobster', cursive;
+}
+p{
+	font-family: 'Fresca', sans-serif;
+}
+.work-info{
+	padding: 7vw;
+	text-align: center;
+	font-family: 'Lobster', cursive;
+}
+.card:hover{
+	border:5px solid black;
+}
+.skills-info{
+	padding: 20%;
+	text-align: center;
+	font-family: 'Lobster', cursive;
+}
+li{
+	font-family: 'Fresca', sans-serif;
 }
