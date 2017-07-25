@@ -12,6 +12,14 @@
     width:100%;
     overflow:hidden;
 }
+.nav-link{
+	font-family: 'lobster',cursive;
+	border-bottom: 2px solid white;
+	font-size: 20px;
+}
+.nav-link:hover{
+	font-size: 30px;
+}
 #sidebar {	
     float:left;
 	background-color: lightgrey;
