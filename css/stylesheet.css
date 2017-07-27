@@ -1,13 +1,6 @@
  @import url('https://fonts.googleapis.com/css?family=Fresca');
 @import url('https://fonts.googleapis.com/css?family=Lobster');
-@media screen and (max-width: 479px) {
-	.transparent-nav{
-		line-height: 1;
-	}
-	.main-info,.skills-info,work-info{
-		line-height: 1;
-	}
-}
+
 #wrapper {
     width:100%;
     overflow:hidden;
@@ -55,10 +48,9 @@ a{
 }
 .main-info{
 	text-align: center;
-	padding: 10%;
+	padding: 25%;
 	font-family: 'Lobster', cursive;
-	line-height: 10;
-	border-bottom: 2px solid black;
+	line-height: 5;
 }
 .headline{
 	font-size: 60px;
@@ -88,3 +80,27 @@ p{
 li{
 	font-family: 'Fresca', sans-serif;
 }
+@media only screen and (max-width: 768px) {
+  #sidebar{
+	  font-size: 10px;
+		line-height: 1;
+	}
+	.main-info,.skills-info,work-info{
+		line-height: 1;
+	}
+	.navigation{
+		display:none;
+	}
+	.headline{
+		text-align: center;
+		font-size: 45px;
+	}
+	.col-3{
+		width: 100px;
+	}
+}
+.container { width: 100%; max-width: 1280px; min-width: 320px; margin: 0 auto; clear: both; }
+
+.col-3 { float: left;  width: 30.8%; margin-right: 3.8%; }
+
+.last { margin-right: 0; }
