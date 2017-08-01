@@ -1,19 +1,18 @@
  @import url('https://fonts.googleapis.com/css?family=Fresca');
-@import url('https://fonts.googleapis.com/css?family=Lobster');
+  @import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
 .navigation{
-	background-color: #2c3e50;
+
 }
 #wrapper {
     width:100%;
     overflow:hidden;
 }
 .nav-link{
-	font-family: 'lobster',cursive;
+
+    font-family: 'Kaushan Script', cursive;
+
 	font-size: 20px;
 	border-bottom: 2px solid white;
-}
-.nav-link:hover{
-	font-size: 30px;
 }
 #sidebar {	
     float:left;
@@ -37,6 +36,7 @@ body{
 }
 i{
 	color:black;
+	
 }
 i:hover{
 	border:0.5px solid black;
@@ -52,7 +52,7 @@ a{
 .main-info{
 	text-align: center;
 	padding: 25%;
-	font-family: 'Lobster', cursive;
+	font-family: 'Kaushan Script', cursive;
 	line-height: 5;
 }
 .headline{
@@ -60,25 +60,30 @@ a{
 }
 .about-info{
 	line-height: 3;
-	padding: 20%;
+	padding: 10%;
 	text-align: center;
-	font-family: 'Lobster', cursive;
+	font-family: 'Kaushan Script', cursive;
+
 }
 p{
 	font-family: 'Fresca', sans-serif;
 }
 .work-info{
-	padding: 7vw;
+	padding: 5%;
 	text-align: center;
-	font-family: 'Lobster', cursive;
+    font-family: 'Kaushan Script', cursive;
+}
+.card{
+
 }
 .card:hover{
 	border:5px solid black;
 }
+
 .skills-info{
-	padding: 20%;
+	padding: 10%;
 	text-align: center;
-	font-family: 'Lobster', cursive;
+	font-family: 'Kaushan Script', cursive;
 }
 li{
 	font-family: 'Fresca', sans-serif;
@@ -92,7 +97,7 @@ li{
 		line-height: 1;
 	}
 	.navigation{
-		display:none;
+		display:block;
 	}
 	.headline{
 		text-align: center;
@@ -103,6 +108,15 @@ li{
 	}
 	.transparent-nav{
 		top:0%;
+	}
+	.nav-link{
+		font-size: 1rem;
+	}
+	p{
+		font-size: 1rem;
+	}
+	.downarrow{
+		display: none;
 	}
 }
 .container { width: 100%; max-width: 1280px; min-width: 320px; margin: 0 auto; clear: both; }
