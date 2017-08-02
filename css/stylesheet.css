@@ -10,10 +10,10 @@
 .nav-link{
 
     font-family: 'Kaushan Script', cursive;
-
 	font-size: 20px;
 	border-bottom: 2px solid white;
 }
+
 #sidebar {	
     float:left;
 	background-color: lightgrey;
@@ -51,7 +51,7 @@ a{
 }
 .main-info{
 	text-align: center;
-	padding: 25%;
+	padding: 13%;
 	font-family: 'Kaushan Script', cursive;
 	line-height: 5;
 }
@@ -124,3 +124,50 @@ li{
 .col-3 { float: left;  width: 30.8%; margin-right: 3.8%; }
 
 .last { margin-right: 0; }
+.container {
+  position: relative;
+  width: 50%;
+
+}
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.container img.wide {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+}
+.container img.tall {
+    max-height: 100%;
+    max-width: 100%;
+    width: auto;
+}​
