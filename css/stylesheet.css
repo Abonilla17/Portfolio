@@ -121,8 +121,11 @@ li{
 		top:0%;
 	}
 	.nav-link{
-		font-size: 10px;
+		font-size: 7px;
 		border-bottom: none;
+	}
+	.nav{
+		text-align: center;
 	}
 	p{
 		font-size: 1rem;
