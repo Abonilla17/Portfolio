@@ -50,9 +50,9 @@ a{
 .main-info{
 	background-color: #c0392b;
 	text-align: center;
-	padding: 13%;
+	padding: 20%;
 	font-family: 'Kaushan Script', cursive;
-	line-height: 5;
+	line-height: 20;
 }
 .headline{
 	font-size: 60px;
@@ -92,7 +92,7 @@ li{
 }
 @media only screen and (max-width: 768px) {
   #sidebar{
-	  font-size: 10px;
+	  font-size: 20px;
 		line-height: 1;
 	}
 	.main-info,.skills-info,.work-info{
@@ -107,8 +107,9 @@ li{
 	}
 	.navigation{
 		display:auto;
-		background-color: #c0392b;
+		background-color: transparent;
 		margin:auto;
+		font-size: 20px;
 	}
 	.headline{
 		text-align: center;
