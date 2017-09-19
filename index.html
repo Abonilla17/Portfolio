@@ -1,137 +1,233 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-	  <link rel="icon" 
-      type="image/png" 
-      href="icon3.png">
-	  <title> Portfolio</title>
+
+<head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-	  <link rel="stylesheet" href="css/bootstrap.min.css">
-	  <link rel="stylesheet" href="css/stylesheet.css">
-	  <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
-	</head>
-	<body>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Bonilla Clan</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.css" rel="stylesheet">
+     <link href="css/lightbox.min.css" rel="stylesheet">
+</head>
 
- 		
-     
-		<div id="wrapper">
-			 <nav class="navbar fixed-top navigation">
-			 <ul class="nav justify-content-center">
-			 <li class="nav-item">
-	  <a class="nav-link logo" href="#"> Alex Bonilla </a>
-	  </li>
-			 <li class="nav-item">
-    <a class="nav-link active" href="#next">About</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#skills">Skills</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#portfolio">Portfolio</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#"><i class="fa fa-envelope-o"> </i> </a>
-  </li>
-    <li class="nav-item">
-    <a class="nav-link" href="#"><i class="fa fa-github-square"></i></a>
-  </li>
-  <li class="nav-item">
-<a class="nav-link" href="#"> <i class="fa fa-twitter"> </i> </a>
-  </li>
-  
-		  </ul>
-	  
-	  
-	  </nav>
+<body data-spy="scroll" data-target="#navbar-example">
+            
+    <!--Main Navigation-->
+    <header>
+    <!-- Image and text -->
+            <div id="navbar-example">
 
+<!--Navbar-->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
 
-	 
-	  
-	  <section class="main-info">
-		
-		<h3 class="headline"> Hi I am Alex Bonilla <br> I am an aspiring web developer  </h3>
-	
-			<a href="#next">
-		<i class="fa fa-arrow-down downarrow"> </i>
-				</a>
-		</section>
-		
-		<section class="about-info" id="next" style="line-height:1;font-size: 30px;">
-		<h3> About me </h3>
-		<img src="portrait.PNG" class="img-fluid rounded-circle" width="15%" style="border:2px solid black;">
-		<p> Hello! I am Alex Bonilla. I am aspiring web developer who lives in Honolulu, Hawaii and have lived there my entire life. I am a recent high school graduate and will be attending college starting in fall 2017 to obtain my information technology degree. </p>
-		</section>
-		
-		
-			
-	<section class="skills-info" id="skills">
-			<h3> The skills I currently possess:</h3>
-			<ul>
-			<li> Html- the markup language of websites controls the content that is on a webpage</li>
+    <!-- Navbar brand -->
+    <a class="navbar-brand" href="#">
+      <img src="logo.png"  class="d-inline-block align-top" alt="" height="50px"> </a>
+    </a>
 
-				<li> CSS or cascading stylesheets- a language that styles websites</li>
-				<li> Javascript- Used to add functionality to websites</li>
-		
-			</ul>
-			
-			</section>
-	  <section class="work-info" id="portfolio">
-		<h3> Portfolio</h3>
-	<div class="row">
-  <div class="col-sm">
- 
-  <img src="tribute_300x300.png" alt="tribute page" class="image img-fluid">
-   <a href="https://codepen.io/-Intricate/full/qrywzg/">
-  <button class="btn btn-primary"> View </button> </a>
-  </div>
-  <div class="col-sm">
-  	 
-  <img src="https://via.placeholder.com/300x300" alt="tribute page" class="image img-fluid">
- 	<a href="https://via.placeholder.com/300x300">
-  <button class="btn btn-primary"> View </button> </a>
-  </div>
-  <div class="col-sm">
-  	
-  <img src="https://via.placeholder.com/300x300" alt="tribute page" class="image img-fluid">
- 
-  <a href="https://via.placeholder.com/300x300">
-  <button class="btn btn-primary"> View </button> </a>
-  </div>
+    <!-- Collapse button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+        aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <!-- Links -->
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#gallery">Gallery</a>
+            </li>
+
+            
+
+        </ul>
+        <!-- Links -->
+    </div>
+    <!-- Collapsible content -->
+
+</nav>
+<!--/.Navbar-->
+
+<!--Carousel Wrapper-->
+<br id="home">
+<div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel" data-target="#carousel">
+    <!--Indicators-->
+    <ol class="carousel-indicators">
+        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-2" data-slide-to="1"></li>
+        <li data-target="#carousel-example-2" data-slide-to="2"></li>
+    </ol>
+    <!--/.Indicators-->
+    <!--Slides-->
+    <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+            <div class="view hm-black-light">
+                <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg" alt="First slide">
+                <div class="mask"></div>
+            </div>
+            <div class="carousel-caption">
+                <h3 class="h3-responsive">Light mask</h3>
+                <p>First text</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <!--Mask color-->
+            <div class="view hm-black-strong">
+                <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(6).jpg" alt="Second slide">
+                <div class="mask"></div>
+            </div>
+            <div class="carousel-caption">
+                <h3 class="h3-responsive">Strong mask</h3>
+                <p>Secondary text</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <!--Mask color-->
+            <div class="view hm-black-slight">
+                <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(9).jpg" alt="Third slide">
+                <div class="mask"></div>
+            </div>
+            <div class="carousel-caption">
+                <h3 class="h3-responsive">Slight mask</h3>
+                <p>Third text</p>
+            </div>
+        </div>
+    </div>
+    <!--/.Slides-->
+    <!--Controls-->
+    <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+    <!--/.Controls-->
 </div>
-<div class="row">
-  <div class="col-sm">
- 
-  <img src="https://via.placeholder.com/300x300"" alt="tribute page" class="image img-fluid">
-  <a href="https://via.placeholder.com/300x300">
-  <button class="btn btn-primary"> View </button> </a>
-  </div>
-  <div class="col-sm">
-  	
-  <img src="https://via.placeholder.com/300x300" alt="tribute page" class="image img-fluid">
- <a href="https://via.placeholder.com/300x300">
-  <button class="btn btn-primary"> View </button> </a>
-  </div>
-  <div class="col-sm">
-  	
-  <img src="https://via.placeholder.com/300x300" alt="tribute page" class="image img-fluid">
-  <a href="https://via.placeholder.com/300x300">
-  <button class="btn btn-primary"> View </button> </a>
-  </div>
-</div>
+<!--/.Carousel Wrapper-->
+                
 
-		</section>
-	</div>
 
-			
 
-	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-	<script type="text/javascript" src="js/bootstrap.min.js">
+        <br id="about">
+		<div class="about">
+        <br>
+		<h3 class="headline"> About us </h3>
+			<p> We are a group of people known as a family.</p>
+            <a href="#gallery">
+        <fa class="fa fa-arrow-down"></fa> </a>
+		
+		
+		</div>
+        <br id="gallery">
+		<div class="gallery">
+		 
+   
+    
+    <div class="album h3 img-fluid">
+      <div class="">
+            <h3 class="text-center headline"> Gallery </h3>
+		  <br>
+        <div class="row">
+          <div class="card">
+                <a href="images/Dad head shot.jpg" data-lightbox="image-1" data-title="Grandpa">
+
+
+            <img src="images/Dad head shot.jpg" alt="Card image cap" width="300px" height="300px" class="img-fluid img-thumbnail img-gallery">
+            </a>
+            <p class="card-text"> Picture of Grandpa</p>
+          </div>
+          <div class="card">
+          <a href="images/wedding.jpg" data-lightbox="image-1" data-title="Grandpa and Grandma's wedding">
+            <img src="images/wedding.jpg" alt="Picture of Grandpa and Grandma's wedding" class="img-fluid img-thumbnail img-gallery">
+            </a>
+            <p class="card-text"> A picture of Grandpa and Grandma on their wedding day.</p>
+          </div>
+          <div class="card">
+            <a href="images/xander.jpg" data-lightbox="image-1" data-title="Xander">
+            <img src="images/xander.jpg" alt="Card image cap" class="img-thumbnail img-fluid img-gallery">
+            </a>
+            <p class="card-text">Picture of Xander, the creator of this website.</p>
+          </div>
+
+          <div class="card">
+          <a href="http://via.placeholder.com/300x300" data-lightbox="image-1" data-title="Picture">
+            <img src="http://via.placeholder.com/300x300" alt="Picture" class="img-thumbnail img-fluid img-gallery">
+            </a>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+          <div class="card">
+              <a href="http://via.placeholder.com/300x300" data-lightbox="image-1" data-title="Picture">
+            <img src="http://via.placeholder.com/300x300" alt="Picture" class="img-thumbnail img-fluid img-gallery">
+            </a>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+          <div class="card">
+               <a href="http://via.placeholder.com/300x300" data-lightbox="image-1" data-title="Picture">
+            <img src="http://via.placeholder.com/300x300" alt="Picture" class="img-thumbnail img-fluid img-gallery">
+            </a>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+
+          <div class="card">
+               <a href="http://via.placeholder.com/300x300" data-lightbox="image-1" data-title="Picture">
+            <img src="http://via.placeholder.com/300x300" alt="Picture" class="img-thumbnail img-fluid img-gallery">
+            </a>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+          <div class="card">
+               <a href="http://via.placeholder.com/300x300" data-lightbox="image-1" data-title="Picture">
+            <img src="http://via.placeholder.com/300x300" alt="Picture" class="img-thumbnail img-fluid img-gallery" width="300">
+            </a>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+          <div class="card">
+             <a href="images/andrew.jpg" data-lightbox="image-1" data-title="Andrew Puetz">
+            <img src="images/andrew.jpg" alt="Picture" class="img-thumbnail img-fluid img-gallery">
+            </a>
+            <p class="card-text">Picture of Andrew Puetz pulled off of google+</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+		
+		</div>
+    </main>
+    <!--Main Layout-->
+    <!-- SCRIPTS -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <script type="text/javascript" src="js/lightbox.js"></script>
+	<script type="text/javascript" src="js/scrollreveal.min.js"></script>
+	<script>
+	window.sr = ScrollReveal();
+sr.reveal('.logo');
+sr.reveal('.bar');
 	</script>
-			<script type="text/javascript" src="js/scrollreveal.min.js"></script>
-		<script>
+    <script type="text/javascript">
+
 // Select all links with hashes
 $('a[href*="#"]')
   // Remove links that don't actually link to anything
@@ -169,21 +265,14 @@ $('a[href*="#"]')
     }
   });
 </script>
-			<script>
-			window.sr = ScrollReveal();
-sr.reveal('.about-info');
-sr.reveal('.work-info');
-sr.reveal('.skills-info');
-		
+<script type="text/javascript">
+    $('body').scrollspy({ target: '#navbar-example' })
+</script>
 
-			
-			</script>
-			<script type="text/javascript">
-	
-			</script>
-	</body>
-
-
-
+    </script>
+    <script type="text/javascript">
+      
+    </script>
+</body>
 
 </html>
