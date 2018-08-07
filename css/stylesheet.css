@@ -87,6 +87,10 @@ p{
 	text-align: center;
 	font-family: 'Kaushan Script', cursive;
 }
+.skills-h3{
+	font-size: 150%;
+	font-family: sans-serif;
+}
 li{
 	font-family: 'Fresca', sans-serif;
 	list-style: none;
